@@ -13,7 +13,9 @@
       </servlet-class>
       <load-on-startup>1</load-on-startup>
    </servlet>
-
+<welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+</welcome-file-list>
 	<filter>
     <filter-name>charsetFilter</filter-name>
     <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>

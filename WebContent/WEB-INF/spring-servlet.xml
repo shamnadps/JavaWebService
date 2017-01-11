@@ -12,5 +12,6 @@
    <context:component-scan base-package="com.haizum" />
    <mvc:annotation-driven /> 
    <mvc:resources mapping="/resources/**" location="WEB-INF/resources/" />
+   
  
 </beans>
